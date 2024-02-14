@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cntp {
+    margin-top: 12px;
+}
+
+#primary {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+#main {
+    background-color: white;
+}
+
+.img-title img {
+
+    max-width: 100%;
+    display: inline-block;
+    padding: 16px;
+    border: 1px transparent;
+
+}
+
+.img-title {
+    margin-top: 75px;
+}
+
+.iltes-info h2,
+.pte-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.iltes-exam-struct-img img {
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li h4 {
+    text-decoration: underline;
+}
+
+.iltes-typle-title {
+    list-style: disc;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+ul.iltes-title {
+    list-style: disc;
+}
+
+table td {
+    /* font-weight: bold; */
+    font-weight: 500;
+}
+
+.iltes-exam-struct h3,
+.faq-title {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* PTE Start */
+ul.pte-info {
+    list-style: disc
+}
+
+.pte-info {
+    padding: 20px;
+}
+
+/* Responsive  */
+@media only screen and (max-width: 991px) {
+    .img-title {
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 591px) {
+    .pte-exam-struct-img {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #header .logo img {
+        max-height: 100px !important;
+        left: 0 !important;
+    }
+}
+
+
+.card-title {
+    color: #37517e !important;
+}
+
+
+
+.card-text{
+    font-size: 16px !important;
+}
